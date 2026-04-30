@@ -5,11 +5,9 @@ import java.util.List;
 
 class NumberList {
 
-	private List<Integr> numbers = new ArrayList<>();
+	private List<Integer> numbers = new ArrayList<>();
 
-	public List
-
-	<Integer> getNumbers() {
+	public List<Integer> getNumbers() {
 		return numbers;
 	}
 
