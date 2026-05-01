@@ -28,7 +28,7 @@ public class Member {
 	 * → テスト用・初期状態生成
 	 */
 	public Member() {
-		// ★重要：null禁止 → 空リストで初期化
+
 		this.coupons = new ArrayList<>();
 	}
 
@@ -43,7 +43,6 @@ public class Member {
 		this.age = age;
 		this.rank = rank;
 
-		// ★重要：null防止（必ず空リスト）
 		this.coupons = new ArrayList<>();
 	}
 
