@@ -52,17 +52,17 @@ input birthday>>2000/8/32
 public class SystemMain {
 
 	public static void main(String[] args) {
-
-		MemberStorage memberStorage = new MemberStorage();
-		CreateUserService createUserService = new CreateUserService(memberStorage);
-		boolean isCreated = false;
-		int inputId = 0;
-		String inputPassword = "";
-		String inputName = "";
-		String inputBirthday = "";
-
-		System.out.println("新規に会員登録します。必要事項を入力してください");
-		//TODO ここから実装する
+		//
+		//		MemberStorage memberStorage = new MemberStorage();
+		//		CreateUserService createUserService = new CreateUserService(memberStorage);
+		//		boolean isCreated = false;
+		//		int inputId = 0;
+		//		String inputPassword = "";
+		//		String inputName = "";
+		//		String inputBirthday = "";
+		//
+		//		System.out.println("新規に会員登録します。必要事項を入力してください");
+		//		//TODO ここから実装する
 
 	}
 

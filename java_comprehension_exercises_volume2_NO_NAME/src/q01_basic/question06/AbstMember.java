@@ -5,18 +5,22 @@ package q01_basic.question06;
  * Memberクラス、NonMemberクラスに継承する
  * 
  */
-abstract class AbstMember {
+public abstract class AbstMember {
 
 	/**
 	 * name protected access
 	 */
-	protected String name;
+	protected String Name;
 
 	/**
 	 * 商品を購入する（メッセージ出力）
 	 * 抽象メソッド
 	 */
 	public abstract void buyItem();
+
+	{
+		System.out.println("商品を購入しました。");
+	}
 
 	/**
 	 * メンバー情報を表示する（メッセージ出力）
@@ -25,18 +29,24 @@ abstract class AbstMember {
 	 */
 	public abstract void showMember();
 
+	{
+		System.out.println("***MEMBER DATA***");
+		System.out.println("name:" + Name);
+		System.out.println("*****************");
+	}
+
 	/**
 	 * @return name
 	 */
 	public String getName() {
-		return name;
+		return Name;
 	}
 
 	/**
 	 * @param name セットする name
 	 */
 	public void setName(String name) {
-		this.name = name;
+		this.Name = name;
 	}
 
 }
